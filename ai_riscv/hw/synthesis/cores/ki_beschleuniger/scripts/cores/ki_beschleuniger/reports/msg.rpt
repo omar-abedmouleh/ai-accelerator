@@ -1,0 +1,11 @@
+
+Id             Severity         Limit    Occurrences   Suppressed
+--------------------------------------------------------------------
+CMD-013           Error             0              2            0
+CMD-015           Error             0              2            0
+CMD-036           Error             0              4            0
+OPT-1445        Warning             0              1            0
+UID-4             Error             0              7            0
+ZRT-105         Warning            10              0            0
+
+Diagnostics summary: 15 errors, 1 warning

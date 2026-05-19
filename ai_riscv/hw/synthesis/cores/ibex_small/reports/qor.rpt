@@ -1,0 +1,86 @@
+ 
+****************************************
+Report : qor
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 21:05:10 2024
+****************************************
+
+
+  Timing Path Group 'clock'
+  -----------------------------------
+  Levels of Logic:              27.00
+  Critical Path Length:        550.33
+  Critical Path Slack:        -177.99
+  Critical Path Clk Period:    400.00
+  Total Negative Slack:    -247358.89
+  No. of Violating Paths:     1799.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         61
+  Hierarchical Port Count:       1070
+  Leaf Cell Count:              11966
+  Buf/Inv Cell Count:            2306
+  Buf Cell Count:                 323
+  Inv Cell Count:                1983
+  CT Buf/Inv Cell Count:            1
+  Combinational Cell Count:      9905
+  Sequential Cell Count:         2061
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      854.592121
+  Noncombinational Area:   749.324512
+  Buf/Inv Area:            146.193660
+  Total Buffer Area:            48.76
+  Total Inverter Area:          97.44
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  Net XLength        :       30793.70
+  Net YLength        :       32281.79
+  -----------------------------------
+  Cell Area:              1603.916633
+  Design Area:            1603.916633
+  Net Length        :        63075.48
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         12116
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: photon
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:               86.80
+  -----------------------------------------
+  Overall Compile Time:              122.71
+  Overall Compile Wall Clock Time:    45.24
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 177.99  TNS: 247358.89  Number of Violating Paths: 1799
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

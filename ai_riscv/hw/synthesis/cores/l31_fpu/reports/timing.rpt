@@ -1,0 +1,76 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : codix_berkelium_ca
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 19:12:44 2024
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+  Startpoint: core/r_ex_rs1_addr/Q_reg_reg[1]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: core/execute_stage/fpu/r_fpu_src_A/Q_reg_reg[14]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/r_ex_rs1_addr/Q_reg_reg[1]/CLK (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.00       0.00 r
+  core/r_ex_rs1_addr/Q_reg_reg[1]/QN (DFFASRHQNx1_ASAP7_75t_SL)
+                                                         35.02      35.02 f
+  U96645/Y (BUFx6f_ASAP7_75t_L)                          24.70 *    59.73 f
+  U13785/Y (INVx2_ASAP7_75t_L)                           29.37 *    89.09 r
+  U28475/Y (NOR2x1p5_ASAP7_75t_SL)                       17.61 *   106.71 f
+  U28485/Y (NAND2x1p5_ASAP7_75t_R)                       42.99 *   149.70 r
+  U28486/Y (NOR2x1_ASAP7_75t_SL)                         61.45 *   211.15 f
+  U28487/Y (AOI22xp5_ASAP7_75t_R)                        45.13 *   256.28 r
+  U28503/Y (NAND4xp25_ASAP7_75t_R)                       43.11 *   299.39 f
+  U28515/Y (NOR3x1_ASAP7_75t_R)                          45.70 *   345.09 r
+  U28583/Y (AOI22x1_ASAP7_75t_SL)                        46.13 *   391.22 f
+  U28647/Y (INVx4_ASAP7_75t_SL)                          16.58 *   407.80 r
+  U28648/Y (NOR2x1_ASAP7_75t_SL)                         16.49 *   424.30 f
+  U28838/Y (INVxp67_ASAP7_75t_SL)                        16.60 *   440.90 r
+  U28839/Y (OAI22xp5_ASAP7_75t_SL)                        8.78 *   449.68 f
+  U28840/Y (AOI211xp5_ASAP7_75t_SL)                      14.67 *   464.35 r
+  U28841/Y (NAND2xp5_ASAP7_75t_SL)                        6.79 *   471.14 f
+  U28842/Y (OAI21xp5_ASAP7_75t_SL)                       11.90 *   483.04 r
+  U85767/Y (NOR2xp33_ASAP7_75t_L)                        15.99 *   499.03 f
+  U85766/Y (OR4x2_ASAP7_75t_SL)                          39.83 *   538.87 f
+  U49557/Y (AND3x2_ASAP7_75t_SL)                         26.30 *   565.17 f
+  U40943/Y (NAND2xp5_ASAP7_75t_R)                        31.50 *   596.67 r
+  U43999/Y (OAI21x1_ASAP7_75t_SL)                        73.77 *   670.44 f
+  U55091/Y (AOI22xp5_ASAP7_75t_R)                        40.47 *   710.90 r
+  U55092/Y (NAND4xp25_ASAP7_75t_R)                       29.80 *   740.70 f
+  U55103/Y (OR4x2_ASAP7_75t_SL)                          40.40 *   781.11 f
+  U80214/Y (AND2x2_ASAP7_75t_SL)                         17.57 *   798.68 f
+  core/execute_stage/fpu/r_fpu_src_A/Q_reg_reg[14]/D (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.04 *   798.72 f
+  data arrival time                                                798.72
+
+  clock clock (rise edge)                               600.00     600.00
+  clock network delay (ideal)                             0.00     600.00
+  core/execute_stage/fpu/r_fpu_src_A/Q_reg_reg[14]/CLK (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.00     600.00 r
+  library setup time                                     -3.80     596.20
+  data required time                                               596.20
+  --------------------------------------------------------------------------
+  data required time                                               596.20
+  data arrival time                                               -798.72
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -202.52
+
+
+1

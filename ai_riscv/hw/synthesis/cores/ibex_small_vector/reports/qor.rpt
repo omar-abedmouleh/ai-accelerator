@@ -1,0 +1,86 @@
+ 
+****************************************
+Report : qor
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Sat Dec 20 17:15:37 2025
+****************************************
+
+
+  Timing Path Group 'clock'
+  -----------------------------------
+  Levels of Logic:              31.00
+  Critical Path Length:        574.11
+  Critical Path Slack:        -179.55
+  Critical Path Clk Period:    400.00
+  Total Negative Slack:   -1011025.50
+  No. of Violating Paths:     6698.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:        110
+  Hierarchical Port Count:       1681
+  Leaf Cell Count:              37205
+  Buf/Inv Cell Count:            5841
+  Buf Cell Count:                1095
+  Inv Cell Count:                4746
+  CT Buf/Inv Cell Count:            1
+  Combinational Cell Count:     29968
+  Sequential Cell Count:         7237
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     2673.767881
+  Noncombinational Area:  2681.597318
+  Buf/Inv Area:            417.921118
+  Total Buffer Area:           163.51
+  Total Inverter Area:         254.41
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  Net XLength        :       95224.49
+  Net YLength        :      108836.05
+  -----------------------------------
+  Cell Area:              5355.365199
+  Design Area:            5355.365199
+  Net Length        :       204060.55
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         37497
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: prembrandt
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:              316.04
+  -----------------------------------------
+  Overall Compile Time:              359.16
+  Overall Compile Wall Clock Time:    61.79
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 179.55  TNS: 1011025.50  Number of Violating Paths: 6698
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

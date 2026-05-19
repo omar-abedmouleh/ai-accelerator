@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'codix_berkelium_ca' contains 6 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : design
+Design : codix_berkelium_ca
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 19:12:42 2024
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    asap7sc7p5t_SLVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_LVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+Local Link Library:
+
+    {/localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_LVT_TT_ccsa.db, /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_RVT_TT_ccsa.db, /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SRAM_TT_ccsa.db, /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SLVT_TT_ccsa.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : PVT_0P7V_25C
+    Library : asap7sc7p5t_LVT_TT_ccsa
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   0.70
+
+Wire Loading Model:
+
+    No wire loading used.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    DesignWare
+
+Design Parameters:
+
+    None specified.
+1

@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Sat Dec 20 17:15:40 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_SLVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_LVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+Warning: Cannot report correlated power unless power prediction mode is set. (PWR-727)
+Power Breakdown
+---------------
+
+                             Cell        Driven Net  Tot Dynamic      Cell
+                             Internal    Switching   Power (mW)       Leakage
+Cell                         Power (mW)  Power (mW)  (% Cell/Tot)     Power (pW)
+--------------------------------------------------------------------------------
+Netlist Power                   3.2186      1.5904   4.809e+00 (67%)  1.894e+08
+Estimated Clock Tree Power   N/A         N/A         N/A (N/A)        N/A
+--------------------------------------------------------------------------------
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      2.6526            0.7919        3.1995e+05            3.4448  (  68.92%)  i
+register           0.2667        5.7096e-02        2.5916e+07            0.3498  (   7.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2992            0.7415        1.6320e+08            1.2039  (  24.09%)
+--------------------------------------------------------------------------------------------------
+Total              3.2185 mW         1.5904 mW     1.8943e+08 pW         4.9984 mW
+1

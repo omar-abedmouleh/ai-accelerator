@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : top_module_1
+Version: W-2024.09-SP1
+Date   : Sun Mar 29 20:19:02 2026
+****************************************
+
+Library(s) Used:
+
+    asap7sc7p5t_LVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_SLVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_RVT_TT_ccsa.db)
+
+Number of ports:                        26087
+Number of nets:                        421999
+Number of cells:                       379439
+Number of combinational cells:         321861
+Number of sequential cells:             55899
+Number of macros/black boxes:               0
+Number of buf/inv:                      71578
+Number of references:                      21
+
+Combinational area:              28592.473464
+Buf/Inv area:                     3615.154767
+Noncombinational area:           20971.376138
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 49563.849602
+Total area:                 undefined
+1

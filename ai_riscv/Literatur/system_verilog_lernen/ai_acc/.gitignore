@@ -1,0 +1,38 @@
+# Ignore ModelSim/Questa and simulation output artifacts in this folder
+
+# Work library and generated DBs
+work/
+
+# Common simulation outputs
+transcript
+vsim.wlf
+*.wlf
+
+# ModelSim/Questa project/session files
+*.mpf
+*.cr.mti
+
+# Temporary folders ModelSim may create
+_temp/
+_tempmsg/
+
+# Keep source files tracked
+!*.sv
+!*.svh
+!*.svt
+!Makefile
+!*.do
+!*.md
+!*.py
+
+# Ignore simulation driver scripts in this folder
+run_simulation.do
+wave_setup.do
+
+# Ignore temporary NFS files
+.nfs*
+
+# Explicitly ignore local debug testbench
+
+
+debug_tb.sv

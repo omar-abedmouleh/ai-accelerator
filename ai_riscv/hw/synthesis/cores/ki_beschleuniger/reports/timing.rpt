@@ -1,0 +1,119 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top_module_1
+Version: W-2024.09-SP1
+Date   : Sun Mar 29 20:19:02 2026
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+  Startpoint: u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/R_1545
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/o_pixel_reg[3]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/R_1545/CLK (DFFASRHQNx1_ASAP7_75t_L)
+                                                          0.00       0.00 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/R_1545/QN (DFFASRHQNx1_ASAP7_75t_L)
+                                                         52.80      52.80 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2347/Y (INVx1_ASAP7_75t_L)
+                                                         13.88 *    66.68 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3196/Y (OR2x2_ASAP7_75t_SL)
+                                                         14.77 *    81.45 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2814/Y (OAI21xp5_ASAP7_75t_SL)
+                                                          7.04 *    88.49 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2812/Y (AO21x2_ASAP7_75t_SL)
+                                                         23.74 *   112.23 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U131/Y (NAND2x1p5_ASAP7_75t_SL)
+                                                         12.51 *   124.74 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U132/Y (OR2x2_ASAP7_75t_L)
+                                                         24.54 *   149.28 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U408/Y (NOR2xp33_ASAP7_75t_L)
+                                                         25.15 *   174.43 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U423/Y (XOR2xp5_ASAP7_75t_R)
+                                                         29.79 *   204.22 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U424/Y (NOR2xp67_ASAP7_75t_L)
+                                                         16.61 *   220.83 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U438/Y (NOR2xp33_ASAP7_75t_L)
+                                                         23.36 *   244.19 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U486/Y (NAND2xp5_ASAP7_75t_SL)
+                                                         19.99 *   264.18 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U487/Y (NOR2x1_ASAP7_75t_L)
+                                                         12.64 *   276.82 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U560/Y (NAND2xp5_ASAP7_75t_R)
+                                                         17.76 *   294.58 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U586/Y (OAI21x1_ASAP7_75t_SL)
+                                                         11.08 *   305.67 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2393/Y (XNOR2x1_ASAP7_75t_SL)
+                                                         21.02 *   326.69 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U824/Y (AOI22xp5_ASAP7_75t_SL)
+                                                         17.48 *   344.17 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U825/Y (AND2x4_ASAP7_75t_SL)
+                                                         18.98 *   363.15 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U993/Y (NOR2xp33_ASAP7_75t_L)
+                                                         15.06 *   378.21 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U994/Y (NOR2x1_ASAP7_75t_SL)
+                                                         13.05 *   391.26 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U996/Y (OAI21xp5_ASAP7_75t_L)
+                                                         11.83 *   403.09 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2378/Y (AO21x1_ASAP7_75t_SL)
+                                                         18.92 *   422.01 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U1002/Y (NAND2xp5_ASAP7_75t_SL)
+                                                         11.55 *   433.55 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U1004/Y (OAI21xp5_ASAP7_75t_SL)
+                                                         10.63 *   444.19 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2319/Y (AOI21xp5_ASAP7_75t_L)
+                                                         15.74 *   459.93 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2240/Y (OAI21x1_ASAP7_75t_SL)
+                                                         16.26 *   476.19 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3200/Y (INVx4_ASAP7_75t_SL)
+                                                         11.70 *   487.89 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3448/Y (INVx3_ASAP7_75t_SL)
+                                                          7.90 *   495.79 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2377/Y (XNOR2xp5_ASAP7_75t_SL)
+                                                         18.64 *   514.44 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2371/Y (NOR2xp67_ASAP7_75t_SL)
+                                                          8.65 *   523.09 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U2346/Y (AND2x2_ASAP7_75t_SL)
+                                                         16.25 *   539.33 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3495/Y (AOI31xp67_ASAP7_75t_SL)
+                                                         17.22 *   556.55 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U940/Y (NOR2x2_ASAP7_75t_SL)
+                                                         12.84 *   569.39 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3214/Y (AOI21xp5_ASAP7_75t_SL)
+                                                          9.17 *   578.56 f
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/U3213/Y (INVx1_ASAP7_75t_SL)
+                                                          6.84 *   585.40 r
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/o_pixel_reg[3]/D (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.04 *   585.44 r
+  data arrival time                                                585.44
+
+  clock clock (rise edge)                               600.00     600.00
+  clock network delay (ideal)                             0.00     600.00
+  u_processing/u_accel/u_arith/ROW_GEN[5].COL_GEN[1].u_pe/o_pixel_reg[3]/CLK (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.00     600.00 r
+  library setup time                                    -14.96     585.04
+  data required time                                               585.04
+  --------------------------------------------------------------------------
+  data required time                                               585.04
+  data arrival time                                               -585.44
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.40
+
+
+1

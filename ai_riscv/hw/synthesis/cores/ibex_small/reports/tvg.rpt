@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : threshold voltage group
+        -analysis_effort low
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 21:05:10 2024
+****************************************
+
+********************************************************************************
+                        Threshold Voltage Group Report                         
+********************************************************************************
+
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+
+Vth Group                All                Blackbox           Non-blackbox
+Name                    cells                cells                cells
+********************************************************************************
+LVT                  1446  (12.08%)         60 (100.00%)       1386  (11.64%)   
+RVT                  4884  (40.82%)          0   (0.00%)       4884  (41.02%)   
+SLVT                 4569  (38.18%)          0   (0.00%)       4569  (38.38%)   
+SRAM                 1067   (8.92%)          0   (0.00%)       1067   (8.96%)   
+********************************************************************************
+Total               11966 (100.00%)         60 (100.00%)      11906 (100.00%)   
+
+Vth Group                All                Blackbox           Non-blackbox
+Name                  cell area            cell area            cell area
+********************************************************************************
+LVT                135.48   (8.45%)      15.75 (100.00%)     119.73   (7.54%)   
+RVT                742.05  (46.26%)       0.00   (0.00%)     742.05  (46.72%)   
+SLVT               609.25  (37.99%)       0.00   (0.00%)     609.25  (38.36%)   
+SRAM               117.14   (7.30%)       0.00   (0.00%)     117.14   (7.38%)   
+********************************************************************************
+Total             1603.92 (100.00%)      15.75 (100.00%)    1588.17 (100.00%)   
+
+Vth Group                All                Blackbox           Non-blackbox
+Name                 cell leakage        cell leakage          cell leakage
+********************************************************************************
+LVT               1.245uW   (1.63%)  178.206nW (100.00%)    1.067uW   (1.40%)   
+RVT             595.148nW   (0.78%)    0.000pW   (0.00%)  595.148nW   (0.78%)   
+SLVT             74.436uW  (97.56%)    0.000pW   (0.00%)   74.436uW  (97.79%)   
+SRAM             23.822nW   (0.03%)    0.000pW   (0.00%)   23.822nW   (0.03%)   
+********************************************************************************
+Total            76.301uW (100.00%)  178.206nW (100.00%)   76.122uW (100.00%)   
+
+1

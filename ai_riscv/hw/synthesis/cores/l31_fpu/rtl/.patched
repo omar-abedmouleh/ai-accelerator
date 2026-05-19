@@ -1,0 +1,10 @@
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_dcache_port_unit_ahb.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_dcache_ahb_t.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_dcache_bus_interface_unit_ahb.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_icache_ahb_t.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_idcache_csu.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codasip_idcache_platform_ahb_t.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codix_berkelium_ca_cache_l1_t.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codix_berkelium_ca.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codix_berkelium_ca_core_t.sv.patch
+/home/viktor/Projects/codasip/l31_paper_workspace/l31-fpu/patches/rtl/./codix_berkelium_ca_core_main_t.sv.patch

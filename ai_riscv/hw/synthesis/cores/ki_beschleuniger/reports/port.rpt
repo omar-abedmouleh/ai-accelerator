@@ -1,0 +1,409 @@
+ 
+****************************************
+Report : port
+Design : top_module_1
+Version: W-2024.09-SP1
+Date   : Sun Mar 29 20:19:29 2026
+****************************************
+
+
+
+Attributes:
+    i - ideal_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+M_AXI_ARREADY  in      0.0000   0.0000   --      --      --         
+M_AXI_AWREADY  in      0.0000   0.0000   --      --      --         
+M_AXI_BID[0]   in      0.0000   0.0000   --      --      --         
+M_AXI_BID[1]   in      0.0000   0.0000   --      --      --         
+M_AXI_BID[2]   in      0.0000   0.0000   --      --      --         
+M_AXI_BID[3]   in      0.0000   0.0000   --      --      --         
+M_AXI_BRESP[0] in      0.0000   0.0000   --      --      --         
+M_AXI_BRESP[1] in      0.0000   0.0000   --      --      --         
+M_AXI_BVALID   in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[0] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[1] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[2] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[3] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[4] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[5] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[6] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[7] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[8] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[9] in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[10]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[11]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[12]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[13]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[14]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[15]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[16]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[17]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[18]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[19]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[20]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[21]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[22]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[23]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[24]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[25]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[26]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[27]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[28]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[29]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[30]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RDATA[31]
+               in      0.0000   0.0000   --      --      --         
+M_AXI_RID[0]   in      0.0000   0.0000   --      --      --         
+M_AXI_RID[1]   in      0.0000   0.0000   --      --      --         
+M_AXI_RID[2]   in      0.0000   0.0000   --      --      --         
+M_AXI_RID[3]   in      0.0000   0.0000   --      --      --         
+M_AXI_RLAST    in      0.0000   0.0000   --      --      --         
+M_AXI_RRESP[0] in      0.0000   0.0000   --      --      --         
+M_AXI_RRESP[1] in      0.0000   0.0000   --      --      --         
+M_AXI_RVALID   in      0.0000   0.0000   --      --      --         
+M_AXI_WREADY   in      0.0000   0.0000   --      --      --         
+S_ARADDR[0]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[1]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[2]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[3]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[4]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[5]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[6]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[7]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[8]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[9]    in      0.0000   0.0000   --      --      --         
+S_ARADDR[10]   in      0.0000   0.0000   --      --      --         
+S_ARADDR[11]   in      0.0000   0.0000   --      --      --         
+S_ARPROT[0]    in      0.0000   0.0000   --      --      --         
+S_ARPROT[1]    in      0.0000   0.0000   --      --      --         
+S_ARPROT[2]    in      0.0000   0.0000   --      --      --         
+S_ARVALID      in      0.0000   0.0000   --      --      --         
+S_AWADDR[0]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[1]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[2]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[3]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[4]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[5]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[6]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[7]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[8]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[9]    in      0.0000   0.0000   --      --      --         
+S_AWADDR[10]   in      0.0000   0.0000   --      --      --         
+S_AWADDR[11]   in      0.0000   0.0000   --      --      --         
+S_AWPROT[0]    in      0.0000   0.0000   --      --      --         
+S_AWPROT[1]    in      0.0000   0.0000   --      --      --         
+S_AWPROT[2]    in      0.0000   0.0000   --      --      --         
+S_AWVALID      in      0.0000   0.0000   --      --      --         
+S_BREADY       in      0.0000   0.0000   --      --      --         
+S_RREADY       in      0.0000   0.0000   --      --      --         
+S_WDATA[0]     in      0.0000   0.0000   --      --      --         
+S_WDATA[1]     in      0.0000   0.0000   --      --      --         
+S_WDATA[2]     in      0.0000   0.0000   --      --      --         
+S_WDATA[3]     in      0.0000   0.0000   --      --      --         
+S_WDATA[4]     in      0.0000   0.0000   --      --      --         
+S_WDATA[5]     in      0.0000   0.0000   --      --      --         
+S_WDATA[6]     in      0.0000   0.0000   --      --      --         
+S_WDATA[7]     in      0.0000   0.0000   --      --      --         
+S_WDATA[8]     in      0.0000   0.0000   --      --      --         
+S_WDATA[9]     in      0.0000   0.0000   --      --      --         
+S_WDATA[10]    in      0.0000   0.0000   --      --      --         
+S_WDATA[11]    in      0.0000   0.0000   --      --      --         
+S_WDATA[12]    in      0.0000   0.0000   --      --      --         
+S_WDATA[13]    in      0.0000   0.0000   --      --      --         
+S_WDATA[14]    in      0.0000   0.0000   --      --      --         
+S_WDATA[15]    in      0.0000   0.0000   --      --      --         
+S_WDATA[16]    in      0.0000   0.0000   --      --      --         
+S_WDATA[17]    in      0.0000   0.0000   --      --      --         
+S_WDATA[18]    in      0.0000   0.0000   --      --      --         
+S_WDATA[19]    in      0.0000   0.0000   --      --      --         
+S_WDATA[20]    in      0.0000   0.0000   --      --      --         
+S_WDATA[21]    in      0.0000   0.0000   --      --      --         
+S_WDATA[22]    in      0.0000   0.0000   --      --      --         
+S_WDATA[23]    in      0.0000   0.0000   --      --      --         
+S_WDATA[24]    in      0.0000   0.0000   --      --      --         
+S_WDATA[25]    in      0.0000   0.0000   --      --      --         
+S_WDATA[26]    in      0.0000   0.0000   --      --      --         
+S_WDATA[27]    in      0.0000   0.0000   --      --      --         
+S_WDATA[28]    in      0.0000   0.0000   --      --      --         
+S_WDATA[29]    in      0.0000   0.0000   --      --      --         
+S_WDATA[30]    in      0.0000   0.0000   --      --      --         
+S_WDATA[31]    in      0.0000   0.0000   --      --      --         
+S_WSTRB[0]     in      0.0000   0.0000   --      --      --         
+S_WSTRB[1]     in      0.0000   0.0000   --      --      --         
+S_WSTRB[2]     in      0.0000   0.0000   --      --      --         
+S_WSTRB[3]     in      0.0000   0.0000   --      --      --         
+S_WVALID       in      0.0000   0.0000   --      --      --         
+clk            in      0.0000   0.0000   --      --      --         
+reset          in      0.0000   0.0000   --      --      --         i
+M_AXI_ARADDR[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[2]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[3]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[4]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[5]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[6]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[7]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[8]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[9]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[10]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[11]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[12]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[13]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[14]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[15]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[16]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[17]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[18]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[19]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[20]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[21]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[22]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARADDR[23]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARBURST[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARBURST[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARID[0]  out     0.0000   0.0000   --      --      --         
+M_AXI_ARID[1]  out     0.0000   0.0000   --      --      --         
+M_AXI_ARID[2]  out     0.0000   0.0000   --      --      --         
+M_AXI_ARID[3]  out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[0] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[1] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[2] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[3] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[4] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[5] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[6] out     0.0000   0.0000   --      --      --         
+M_AXI_ARLEN[7] out     0.0000   0.0000   --      --      --         
+M_AXI_ARSIZE[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARSIZE[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARSIZE[2]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_ARVALID  out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[2]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[3]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[4]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[5]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[6]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[7]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[8]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[9]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[10]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[11]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[12]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[13]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[14]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[15]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[16]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[17]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[18]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[19]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[20]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[21]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[22]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWADDR[23]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWBURST[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWBURST[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWID[0]  out     0.0000   0.0000   --      --      --         
+M_AXI_AWID[1]  out     0.0000   0.0000   --      --      --         
+M_AXI_AWID[2]  out     0.0000   0.0000   --      --      --         
+M_AXI_AWID[3]  out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[0] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[1] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[2] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[3] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[4] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[5] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[6] out     0.0000   0.0000   --      --      --         
+M_AXI_AWLEN[7] out     0.0000   0.0000   --      --      --         
+M_AXI_AWSIZE[0]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWSIZE[1]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWSIZE[2]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_AWVALID  out     0.0000   0.0000   --      --      --         
+M_AXI_BREADY   out     0.0000   0.0000   --      --      --         
+M_AXI_RREADY   out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[0] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[1] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[2] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[3] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[4] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[5] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[6] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[7] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[8] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[9] out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[10]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[11]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[12]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[13]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[14]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[15]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[16]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[17]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[18]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[19]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[20]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[21]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[22]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[23]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[24]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[25]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[26]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[27]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[28]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[29]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[30]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WDATA[31]
+               out     0.0000   0.0000   --      --      --         
+M_AXI_WLAST    out     0.0000   0.0000   --      --      --         
+M_AXI_WSTRB[0] out     0.0000   0.0000   --      --      --         
+M_AXI_WSTRB[1] out     0.0000   0.0000   --      --      --         
+M_AXI_WSTRB[2] out     0.0000   0.0000   --      --      --         
+M_AXI_WSTRB[3] out     0.0000   0.0000   --      --      --         
+M_AXI_WVALID   out     0.0000   0.0000   --      --      --         
+S_ARREADY      out     0.0000   0.0000   --      --      --         
+S_AWREADY      out     0.0000   0.0000   --      --      --         
+S_BRESP[0]     out     0.0000   0.0000   --      --      --         
+S_BRESP[1]     out     0.0000   0.0000   --      --      --         
+S_BVALID       out     0.0000   0.0000   --      --      --         
+S_RDATA[0]     out     0.0000   0.0000   --      --      --         
+S_RDATA[1]     out     0.0000   0.0000   --      --      --         
+S_RDATA[2]     out     0.0000   0.0000   --      --      --         
+S_RDATA[3]     out     0.0000   0.0000   --      --      --         
+S_RDATA[4]     out     0.0000   0.0000   --      --      --         
+S_RDATA[5]     out     0.0000   0.0000   --      --      --         
+S_RDATA[6]     out     0.0000   0.0000   --      --      --         
+S_RDATA[7]     out     0.0000   0.0000   --      --      --         
+S_RDATA[8]     out     0.0000   0.0000   --      --      --         
+S_RDATA[9]     out     0.0000   0.0000   --      --      --         
+S_RDATA[10]    out     0.0000   0.0000   --      --      --         
+S_RDATA[11]    out     0.0000   0.0000   --      --      --         
+S_RDATA[12]    out     0.0000   0.0000   --      --      --         
+S_RDATA[13]    out     0.0000   0.0000   --      --      --         
+S_RDATA[14]    out     0.0000   0.0000   --      --      --         
+S_RDATA[15]    out     0.0000   0.0000   --      --      --         
+S_RDATA[16]    out     0.0000   0.0000   --      --      --         
+S_RDATA[17]    out     0.0000   0.0000   --      --      --         
+S_RDATA[18]    out     0.0000   0.0000   --      --      --         
+S_RDATA[19]    out     0.0000   0.0000   --      --      --         
+S_RDATA[20]    out     0.0000   0.0000   --      --      --         
+S_RDATA[21]    out     0.0000   0.0000   --      --      --         
+S_RDATA[22]    out     0.0000   0.0000   --      --      --         
+S_RDATA[23]    out     0.0000   0.0000   --      --      --         
+S_RDATA[24]    out     0.0000   0.0000   --      --      --         
+S_RDATA[25]    out     0.0000   0.0000   --      --      --         
+S_RDATA[26]    out     0.0000   0.0000   --      --      --         
+S_RDATA[27]    out     0.0000   0.0000   --      --      --         
+S_RDATA[28]    out     0.0000   0.0000   --      --      --         
+S_RDATA[29]    out     0.0000   0.0000   --      --      --         
+S_RDATA[30]    out     0.0000   0.0000   --      --      --         
+S_RDATA[31]    out     0.0000   0.0000   --      --      --         
+S_RRESP[0]     out     0.0000   0.0000   --      --      --         
+S_RRESP[1]     out     0.0000   0.0000   --      --      --         
+S_RVALID       out     0.0000   0.0000   --      --      --         
+S_WREADY       out     0.0000   0.0000   --      --      --         
+core_done_all  out     0.0000   0.0000   --      --      --         
+
+1

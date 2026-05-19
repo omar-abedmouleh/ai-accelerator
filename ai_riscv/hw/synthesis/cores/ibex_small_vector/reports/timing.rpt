@@ -1,0 +1,92 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Sat Dec 20 17:15:37 2025
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+  Startpoint: u_ibex_core/R_50
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: u_ibex_core/vector_ex_unit_i/result_q_reg[92]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_ibex_core/R_50/CLK (DFFHQNx2_ASAP7_75t_SL)            0.00       0.00 r
+  u_ibex_core/R_50/QN (DFFHQNx2_ASAP7_75t_SL)            42.77      42.77 f
+  u_ibex_core/U21779/Y (NOR4xp75_ASAP7_75t_SL)           24.68 *    67.46 r
+  u_ibex_core/U12632/Y (OAI21x1_ASAP7_75t_SL)            10.08 *    77.54 f
+  u_ibex_core/U5172/Y (INVx4_ASAP7_75t_SL)                9.28 *    86.82 r
+  u_ibex_core/U8658/Y (NAND2x1_ASAP7_75t_SL)              7.74 *    94.56 f
+  u_ibex_core/U8474/Y (OAI21xp5_ASAP7_75t_SL)            11.59 *   106.15 r
+  u_ibex_core/U15227/Y (OR2x6_ASAP7_75t_SL)              34.38 *   140.53 r
+  u_ibex_core/vector_register_file_i/rd_vreg_a_i[1] (ibex_vrf_NREGS32)
+                                                          0.00     140.53 r
+  u_ibex_core/vector_register_file_i/U3381/Y (AND3x1_ASAP7_75t_SL)
+                                                         27.80 *   168.32 r
+  u_ibex_core/vector_register_file_i/U3354/Y (AND2x4_ASAP7_75t_SL)
+                                                         17.81 *   186.13 r
+  u_ibex_core/vector_register_file_i/U4033/Y (BUFx12f_ASAP7_75t_SL)
+                                                         17.42 *   203.56 r
+  u_ibex_core/vector_register_file_i/U3398/Y (INVx6_ASAP7_75t_L)
+                                                         17.12 *   220.68 f
+  u_ibex_core/vector_register_file_i/U5057/Y (OAI22xp33_ASAP7_75t_L)
+                                                         14.49 *   235.17 r
+  u_ibex_core/vector_register_file_i/U5055/Y (NOR2xp33_ASAP7_75t_L)
+                                                         22.14 *   257.31 f
+  u_ibex_core/vector_register_file_i/U2094/Y (NAND4xp75_ASAP7_75t_SL)
+                                                         14.23 *   271.54 r
+  u_ibex_core/vector_register_file_i/U3363/Y (BUFx6f_ASAP7_75t_SL)
+                                                         19.01 *   290.56 r
+  u_ibex_core/vector_register_file_i/rd_rdata_a_o[18] (ibex_vrf_NREGS32)
+                                                          0.00     290.56 r
+  u_ibex_core/U10709/Y (AOI21x1_ASAP7_75t_SL)            15.20 *   305.76 f
+  u_ibex_core/U10708/Y (INVx8_ASAP7_75t_SL)              26.12 *   331.89 r
+  u_ibex_core/U4887/Y (INVx11_ASAP7_75t_SL)              11.60 *   343.49 f
+  u_ibex_core/U12417/Y (AND2x2_ASAP7_75t_SL)             18.16 *   361.65 f
+  u_ibex_core/U4594/Y (AND2x4_ASAP7_75t_SL)              21.46 *   383.10 f
+  u_ibex_core/U5732/Y (INVx1_ASAP7_75t_SL)               13.22 *   396.32 r
+  u_ibex_core/U5516/Y (NOR2x1_ASAP7_75t_SL)               6.98 *   403.30 f
+  u_ibex_core/U5517/Y (AOI21xp5_ASAP7_75t_R)             25.12 *   428.42 r
+  u_ibex_core/U5520/Y (AND2x2_ASAP7_75t_SL)              21.84 *   450.26 r
+  u_ibex_core/U21104/Y (OAI21xp5_ASAP7_75t_SL)            8.45 *   458.71 f
+  u_ibex_core/U21105/Y (AOI21xp5_ASAP7_75t_R)            17.44 *   476.15 r
+  u_ibex_core/U21110/Y (OAI211xp5_ASAP7_75t_SL)          19.33 *   495.48 f
+  u_ibex_core/U21111/Y (AO21x2_ASAP7_75t_SL)             29.28 *   524.77 f
+  u_ibex_core/U7064/Y (NOR2x1p5_ASAP7_75t_SL)             9.28 *   534.04 r
+  u_ibex_core/U7062/Y (NAND4xp75_ASAP7_75t_SL)           10.91 *   544.95 f
+  u_ibex_core/U20920/Y (O2A1O1Ixp33_ASAP7_75t_SL)        18.11 *   563.06 r
+  u_ibex_core/U21693/Y (OAI21xp5_ASAP7_75t_SL)           11.03 *   574.09 f
+  u_ibex_core/vector_ex_unit_i/result_q_reg[92]/D (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.01 *   574.11 f
+  data arrival time                                                574.11
+
+  clock clock (rise edge)                               400.00     400.00
+  clock network delay (ideal)                             0.00     400.00
+  u_ibex_core/vector_ex_unit_i/result_q_reg[92]/CLK (DFFASRHQNx1_ASAP7_75t_SL)
+                                                          0.00     400.00 r
+  library setup time                                     -5.44     394.56
+  data required time                                               394.56
+  --------------------------------------------------------------------------
+  data required time                                               394.56
+  data arrival time                                               -574.11
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -179.55
+
+
+1

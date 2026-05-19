@@ -1,0 +1,42 @@
+Full MobileNetV1 128 until GlobalAvgPool
+Clock: period_ns=1.000 freq_mhz=1000.000
+ROM:
+  IMG   C:/Users/amora/Desktop/Neuer Ordner (2)/ai_riscv/hw/ai_acc/inferenz from wissem/output_2/input_modell wissem/input_hwc_i8.bin
+  WGT   C:/Users/amora/Desktop/Neuer Ordner (2)/ai_riscv/rom/rom_weights_all.bin
+  BIAS  C:/Users/amora/Desktop/Neuer Ordner (2)/ai_riscv/rom/rom_bias_all.bin
+  SHIFT C:/Users/amora/Desktop/Neuer Ordner (2)/ai_riscv/rom/rom_shift_all.bin
+  MULT  C:/Users/amora/Desktop/Neuer Ordner (2)/ai_riscv/rom/rom_mult_all.bin
+
+Layer,InWxH,Cin,Cout,K,Stride,Pad(LRTB),dw,pw,pool,OutWxH,Cycles
+1,128x128,3,32,3x3,2x2,0/1/0/1,0,0,0,64x64,587998
+2,64x64,32,32,3x3,1x1,1/1/1/1,1,0,0,64x64,824266
+3,64x64,32,64,1x1,1x1,0/0/0/0,0,1,0,64x64,4787781
+4,64x64,64,64,3x3,2x2,0/1/0/1,1,0,0,32x32,513826
+5,32x32,64,128,1x1,1x1,0/0/0/0,0,1,0,32x32,4239495
+6,32x32,128,128,3x3,1x1,1/1/1/1,1,0,0,32x32,831221
+7,32x32,128,128,1x1,1x1,0/0/0/0,0,1,0,32x32,7919775
+8,32x32,128,128,3x3,2x2,0/1/0/1,1,0,0,16x16,261685
+9,16x16,128,256,1x1,1x1,0/0/0/0,0,1,0,16x16,3993903
+10,16x16,256,256,3x3,1x1,1/1/1/1,1,0,0,16x16,425432
+11,16x16,256,256,1x1,1x1,0/0/0/0,0,1,0,16x16,7704975
+12,16x16,256,256,3x3,2x2,0/1/0/1,1,0,0,8x8,138328
+13,8x8,256,512,1x1,1x1,0/0/0/0,0,1,0,8x8,3982104
+14,8x8,512,512,3x3,1x1,1/1/1/1,1,0,0,8x8,228263
+15,8x8,512,512,1x1,1x1,0/0/0/0,0,1,0,8x8,7816344
+16,8x8,512,512,3x3,1x1,1/1/1/1,1,0,0,8x8,228263
+17,8x8,512,512,1x1,1x1,0/0/0/0,0,1,0,8x8,7816344
+18,8x8,512,512,3x3,1x1,1/1/1/1,1,0,0,8x8,228263
+19,8x8,512,512,1x1,1x1,0/0/0/0,0,1,0,8x8,7816344
+20,8x8,512,512,3x3,1x1,1/1/1/1,1,0,0,8x8,228263
+21,8x8,512,512,1x1,1x1,0/0/0/0,0,1,0,8x8,7816344
+22,8x8,512,512,3x3,1x1,1/1/1/1,1,0,0,8x8,228263
+23,8x8,512,512,1x1,1x1,0/0/0/0,0,1,0,8x8,7816344
+24,8x8,512,512,3x3,2x2,0/1/0/1,1,0,0,4x4,82087
+25,4x4,512,1024,1x1,1x1,0/0/0/0,0,1,0,4x4,4413738
+26,4x4,1024,1024,3x3,2x2,0/1/0/1,1,0,0,2x2,64837
+27,2x2,1024,1024,1x1,1x1,0/0/0/0,0,1,1,2x2,3183402
+
+TOTAL_CYCLES_SUM,84177888
+TOTAL_CYCLES_COUNTER,84182352
+NOTE: TOTAL_CYCLES_SUM is sum of per-layer deltas.
+      TOTAL_CYCLES_COUNTER is global counter since reset deassert.

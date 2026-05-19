@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : area
+Design : codix_berkelium_ca
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 19:12:44 2024
+****************************************
+
+Library(s) Used:
+
+    asap7sc7p5t_SLVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_LVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+Number of ports:                         4935
+Number of nets:                        124650
+Number of cells:                       121447
+Number of combinational cells:         102975
+Number of sequential cells:             18007
+Number of macros/black boxes:               0
+Number of buf/inv:                      22035
+Number of references:                     863
+
+Combinational area:               8496.130509
+Buf/Inv area:                     1293.639662
+Noncombinational area:            6572.066156
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 15068.196664
+Total area:                 undefined
+1

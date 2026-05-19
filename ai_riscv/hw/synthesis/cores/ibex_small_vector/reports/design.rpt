@@ -1,0 +1,84 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : design
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Sat Dec 20 17:15:37 2025
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    asap7sc7p5t_SLVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_LVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /home/kharrat/Desktop/repos/mlonl110_v/synthesis/lib/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+Local Link Library:
+
+    {lib/asap7sc7p5t_LVT_TT_ccsa.db, lib/asap7sc7p5t_RVT_TT_ccsa.db, lib/asap7sc7p5t_SLVT_TT_ccsa.db, lib/asap7sc7p5t_SRAM_TT_ccsa.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : PVT_0P7V_25C
+    Library : asap7sc7p5t_LVT_TT_ccsa
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   0.70
+
+Wire Loading Model:
+
+    No wire loading used.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    PMPEnable => 0
+    PMPGranularity => 0
+    PMPNumRegions => 4
+    MHPMCounterNum => 0
+    MHPMCounterWidth => 40
+    RV32E => 0
+    RV32M => 2
+    RV32B => 0
+    RegFile => 0
+    BranchTargetALU => 0
+    WritebackStage => 0
+    ICache => 0
+    ICacheECC => 0
+    BranchPredictor => 0
+    DbgTriggerEn => 0
+    SecureIbex => 0
+    ICacheScramble => 0
+1

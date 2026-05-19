@@ -1,0 +1,706 @@
+[
+  {
+    "op_index": 0,
+    "op_name": "CONV_2D",
+    "inputs": [
+      0,
+      57,
+      56
+    ],
+    "outputs": [
+      58
+    ]
+  },
+  {
+    "op_index": 1,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      58,
+      55,
+      54
+    ],
+    "outputs": [
+      59
+    ]
+  },
+  {
+    "op_index": 2,
+    "op_name": "CONV_2D",
+    "inputs": [
+      59,
+      53,
+      52
+    ],
+    "outputs": [
+      60
+    ]
+  },
+  {
+    "op_index": 3,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      60,
+      51,
+      50
+    ],
+    "outputs": [
+      61
+    ]
+  },
+  {
+    "op_index": 4,
+    "op_name": "CONV_2D",
+    "inputs": [
+      61,
+      49,
+      48
+    ],
+    "outputs": [
+      62
+    ]
+  },
+  {
+    "op_index": 5,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      62,
+      47,
+      46
+    ],
+    "outputs": [
+      63
+    ]
+  },
+  {
+    "op_index": 6,
+    "op_name": "CONV_2D",
+    "inputs": [
+      63,
+      45,
+      44
+    ],
+    "outputs": [
+      64
+    ]
+  },
+  {
+    "op_index": 7,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      64,
+      43,
+      42
+    ],
+    "outputs": [
+      65
+    ]
+  },
+  {
+    "op_index": 8,
+    "op_name": "CONV_2D",
+    "inputs": [
+      65,
+      41,
+      40
+    ],
+    "outputs": [
+      66
+    ]
+  },
+  {
+    "op_index": 9,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      66,
+      39,
+      38
+    ],
+    "outputs": [
+      67
+    ]
+  },
+  {
+    "op_index": 10,
+    "op_name": "CONV_2D",
+    "inputs": [
+      67,
+      37,
+      36
+    ],
+    "outputs": [
+      68
+    ]
+  },
+  {
+    "op_index": 11,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      68,
+      35,
+      34
+    ],
+    "outputs": [
+      69
+    ]
+  },
+  {
+    "op_index": 12,
+    "op_name": "CONV_2D",
+    "inputs": [
+      69,
+      33,
+      32
+    ],
+    "outputs": [
+      70
+    ]
+  },
+  {
+    "op_index": 13,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      70,
+      31,
+      30
+    ],
+    "outputs": [
+      71
+    ]
+  },
+  {
+    "op_index": 14,
+    "op_name": "CONV_2D",
+    "inputs": [
+      71,
+      29,
+      28
+    ],
+    "outputs": [
+      72
+    ]
+  },
+  {
+    "op_index": 15,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      72,
+      27,
+      26
+    ],
+    "outputs": [
+      73
+    ]
+  },
+  {
+    "op_index": 16,
+    "op_name": "CONV_2D",
+    "inputs": [
+      73,
+      25,
+      24
+    ],
+    "outputs": [
+      74
+    ]
+  },
+  {
+    "op_index": 17,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      74,
+      23,
+      22
+    ],
+    "outputs": [
+      75
+    ]
+  },
+  {
+    "op_index": 18,
+    "op_name": "CONV_2D",
+    "inputs": [
+      75,
+      21,
+      20
+    ],
+    "outputs": [
+      76
+    ]
+  },
+  {
+    "op_index": 19,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      76,
+      19,
+      18
+    ],
+    "outputs": [
+      77
+    ]
+  },
+  {
+    "op_index": 20,
+    "op_name": "CONV_2D",
+    "inputs": [
+      77,
+      17,
+      16
+    ],
+    "outputs": [
+      78
+    ]
+  },
+  {
+    "op_index": 21,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      78,
+      15,
+      14
+    ],
+    "outputs": [
+      79
+    ]
+  },
+  {
+    "op_index": 22,
+    "op_name": "CONV_2D",
+    "inputs": [
+      79,
+      13,
+      12
+    ],
+    "outputs": [
+      80
+    ]
+  },
+  {
+    "op_index": 23,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      80,
+      11,
+      10
+    ],
+    "outputs": [
+      81
+    ]
+  },
+  {
+    "op_index": 24,
+    "op_name": "CONV_2D",
+    "inputs": [
+      81,
+      9,
+      8
+    ],
+    "outputs": [
+      82
+    ]
+  },
+  {
+    "op_index": 25,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "inputs": [
+      82,
+      7,
+      6
+    ],
+    "outputs": [
+      83
+    ]
+  },
+  {
+    "op_index": 26,
+    "op_name": "CONV_2D",
+    "inputs": [
+      83,
+      5,
+      4
+    ],
+    "outputs": [
+      84
+    ]
+  },
+  {
+    "op_index": 27,
+    "op_name": "MEAN",
+    "inputs": [
+      84,
+      1
+    ],
+    "outputs": [
+      85
+    ]
+  },
+  {
+    "op_index": 28,
+    "op_name": "FULLY_CONNECTED",
+    "inputs": [
+      85,
+      3,
+      2
+    ],
+    "outputs": [
+      86
+    ]
+  },
+  {
+    "op_index": 29,
+    "op_name": "SOFTMAX",
+    "inputs": [
+      86
+    ],
+    "outputs": [
+      87
+    ]
+  },
+  {
+    "op_index": 30,
+    "op_name": "DELEGATE",
+    "inputs": [
+      0,
+      56,
+      57
+    ],
+    "outputs": [
+      58
+    ]
+  },
+  {
+    "op_index": 31,
+    "op_name": "DELEGATE",
+    "inputs": [
+      54,
+      55,
+      58
+    ],
+    "outputs": [
+      59
+    ]
+  },
+  {
+    "op_index": 32,
+    "op_name": "DELEGATE",
+    "inputs": [
+      52,
+      53,
+      59
+    ],
+    "outputs": [
+      60
+    ]
+  },
+  {
+    "op_index": 33,
+    "op_name": "DELEGATE",
+    "inputs": [
+      50,
+      51,
+      60
+    ],
+    "outputs": [
+      61
+    ]
+  },
+  {
+    "op_index": 34,
+    "op_name": "DELEGATE",
+    "inputs": [
+      48,
+      49,
+      61
+    ],
+    "outputs": [
+      62
+    ]
+  },
+  {
+    "op_index": 35,
+    "op_name": "DELEGATE",
+    "inputs": [
+      46,
+      47,
+      62
+    ],
+    "outputs": [
+      63
+    ]
+  },
+  {
+    "op_index": 36,
+    "op_name": "DELEGATE",
+    "inputs": [
+      44,
+      45,
+      63
+    ],
+    "outputs": [
+      64
+    ]
+  },
+  {
+    "op_index": 37,
+    "op_name": "DELEGATE",
+    "inputs": [
+      42,
+      43,
+      64
+    ],
+    "outputs": [
+      65
+    ]
+  },
+  {
+    "op_index": 38,
+    "op_name": "DELEGATE",
+    "inputs": [
+      40,
+      41,
+      65
+    ],
+    "outputs": [
+      66
+    ]
+  },
+  {
+    "op_index": 39,
+    "op_name": "DELEGATE",
+    "inputs": [
+      38,
+      39,
+      66
+    ],
+    "outputs": [
+      67
+    ]
+  },
+  {
+    "op_index": 40,
+    "op_name": "DELEGATE",
+    "inputs": [
+      36,
+      37,
+      67
+    ],
+    "outputs": [
+      68
+    ]
+  },
+  {
+    "op_index": 41,
+    "op_name": "DELEGATE",
+    "inputs": [
+      34,
+      35,
+      68
+    ],
+    "outputs": [
+      69
+    ]
+  },
+  {
+    "op_index": 42,
+    "op_name": "DELEGATE",
+    "inputs": [
+      32,
+      33,
+      69
+    ],
+    "outputs": [
+      70
+    ]
+  },
+  {
+    "op_index": 43,
+    "op_name": "DELEGATE",
+    "inputs": [
+      30,
+      31,
+      70
+    ],
+    "outputs": [
+      71
+    ]
+  },
+  {
+    "op_index": 44,
+    "op_name": "DELEGATE",
+    "inputs": [
+      28,
+      29,
+      71
+    ],
+    "outputs": [
+      72
+    ]
+  },
+  {
+    "op_index": 45,
+    "op_name": "DELEGATE",
+    "inputs": [
+      26,
+      27,
+      72
+    ],
+    "outputs": [
+      73
+    ]
+  },
+  {
+    "op_index": 46,
+    "op_name": "DELEGATE",
+    "inputs": [
+      24,
+      25,
+      73
+    ],
+    "outputs": [
+      74
+    ]
+  },
+  {
+    "op_index": 47,
+    "op_name": "DELEGATE",
+    "inputs": [
+      22,
+      23,
+      74
+    ],
+    "outputs": [
+      75
+    ]
+  },
+  {
+    "op_index": 48,
+    "op_name": "DELEGATE",
+    "inputs": [
+      20,
+      21,
+      75
+    ],
+    "outputs": [
+      76
+    ]
+  },
+  {
+    "op_index": 49,
+    "op_name": "DELEGATE",
+    "inputs": [
+      18,
+      19,
+      76
+    ],
+    "outputs": [
+      77
+    ]
+  },
+  {
+    "op_index": 50,
+    "op_name": "DELEGATE",
+    "inputs": [
+      16,
+      17,
+      77
+    ],
+    "outputs": [
+      78
+    ]
+  },
+  {
+    "op_index": 51,
+    "op_name": "DELEGATE",
+    "inputs": [
+      14,
+      15,
+      78
+    ],
+    "outputs": [
+      79
+    ]
+  },
+  {
+    "op_index": 52,
+    "op_name": "DELEGATE",
+    "inputs": [
+      12,
+      13,
+      79
+    ],
+    "outputs": [
+      80
+    ]
+  },
+  {
+    "op_index": 53,
+    "op_name": "DELEGATE",
+    "inputs": [
+      10,
+      11,
+      80
+    ],
+    "outputs": [
+      81
+    ]
+  },
+  {
+    "op_index": 54,
+    "op_name": "DELEGATE",
+    "inputs": [
+      8,
+      9,
+      81
+    ],
+    "outputs": [
+      82
+    ]
+  },
+  {
+    "op_index": 55,
+    "op_name": "DELEGATE",
+    "inputs": [
+      6,
+      7,
+      82
+    ],
+    "outputs": [
+      83
+    ]
+  },
+  {
+    "op_index": 56,
+    "op_name": "DELEGATE",
+    "inputs": [
+      4,
+      5,
+      83
+    ],
+    "outputs": [
+      84
+    ]
+  },
+  {
+    "op_index": 57,
+    "op_name": "DELEGATE",
+    "inputs": [
+      1,
+      84
+    ],
+    "outputs": [
+      85
+    ]
+  },
+  {
+    "op_index": 58,
+    "op_name": "DELEGATE",
+    "inputs": [
+      2,
+      3,
+      85
+    ],
+    "outputs": [
+      86
+    ]
+  }
+]

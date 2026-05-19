@@ -1,0 +1,24 @@
+| Type / Stride                       | Filter Shape                   | Input Size (bei 128x128) |
+| ----------------------------------- | ------------------------------ | ------------------------ |
+| Conv / s2                           | 3x3x3x32                       | 128x128x3                |
+| Conv dw / s1                        | 3x3x32 dw                      | 64x64x32                 |
+| Conv / s1                           | 1x1x32x64                      | 64x64x32                 |
+| Conv dw / s2                        | 3x3x64 dw                      | 64x64x64                 |
+| Conv / s1                           | 1x1x64x128                     | 32x32x64                 |
+| Conv dw / s1                        | 3x3x128 dw                     | 32x32x128                |
+| Conv / s1                           | 1x1x128x128                    | 32x32x128                |
+| Conv dw / s2                        | 3x3x128 dw                     | 32x32x128                |
+| Conv / s1                           | 1x1x128x256                    | 16x16x128                |
+| Conv dw / s1                        | 3x3x256 dw                     | 16x16x256                |
+| Conv / s1                           | 1x1x256x256                    | 16x16x256                |
+| Conv dw / s2                        | 3x3x256 dw                     | 16x16x256                |
+| Conv / s1                           | 1x1x256x512                    | 8x8x256                  |
+| 5x (Conv dw / s1)                   | 3x3x512 dw                     | 8x8x512                  |
+| 5x (Conv / s1)                      | 1x1x512x512                    | 8x8x512                  |
+| Conv dw / s2                        | 3x3x512 dw                     | 8x8x512                  |
+| Conv / s1                           | 1x1x512x1024                   | 4x4x512                  |
+| Conv dw / s2 *(wie im Paper-Table)* | 3x3x1024 dw                    | 4x4x1024                 |
+| Conv / s1                           | 1x1x1024x1024                  | 2x2x1024                 |
+| Avg Pool / s1                       | Pool 2x2 (Global Avg Pool)     | 2x2x1024                 |
+| FC / s1                             | 1024x43                        | 1x1x1024                 |
+| Softmax / s1                        | Classifier                     | 1x1x43                   |

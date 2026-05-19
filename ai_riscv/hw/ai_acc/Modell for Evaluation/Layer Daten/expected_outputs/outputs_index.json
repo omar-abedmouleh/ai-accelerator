@@ -1,0 +1,783 @@
+[
+  {
+    "op_index": 0,
+    "op_name": "QUANTIZE",
+    "tensor_index": 58,
+    "tensor_name": "tfl.quantize",
+    "shape": [
+      1,
+      128,
+      128,
+      3
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 1,
+    "op_name": "CONV_2D",
+    "tensor_index": 59,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv1_1/convolution;1",
+    "shape": [
+      1,
+      64,
+      64,
+      32
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 2,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 60,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_1_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_1_1/depthwise;",
+    "shape": [
+      1,
+      64,
+      64,
+      32
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 3,
+    "op_name": "CONV_2D",
+    "tensor_index": 61,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_1_1/convolution;",
+    "shape": [
+      1,
+      64,
+      64,
+      64
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 4,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 62,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_2_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_2_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_2_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_2_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_2_1/Pad",
+    "shape": [
+      1,
+      32,
+      32,
+      64
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 5,
+    "op_name": "CONV_2D",
+    "tensor_index": 63,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_2_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_2_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_2_1/convolution;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 6,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 64,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_3_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_3_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_3_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_3_1/depthwise;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 7,
+    "op_name": "CONV_2D",
+    "tensor_index": 65,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_3_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_3_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_3_1/convolution;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 8,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 66,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_4_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_4_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_4_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_4_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_4_1/Pad",
+    "shape": [
+      1,
+      16,
+      16,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 9,
+    "op_name": "CONV_2D",
+    "tensor_index": 67,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_4_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_4_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_4_1/convolution;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 10,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 68,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_5_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_5_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_5_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_5_1/depthwise;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 11,
+    "op_name": "CONV_2D",
+    "tensor_index": 69,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_5_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_5_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_5_1/convolution;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 12,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 70,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_6_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_6_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_6_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_6_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_6_1/Pad",
+    "shape": [
+      1,
+      8,
+      8,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 13,
+    "op_name": "CONV_2D",
+    "tensor_index": 71,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_6_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_6_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_6_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 14,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 72,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_7_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_7_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_7_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_7_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 15,
+    "op_name": "CONV_2D",
+    "tensor_index": 73,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_7_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_7_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_7_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 16,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 74,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_8_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_8_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_8_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_8_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 17,
+    "op_name": "CONV_2D",
+    "tensor_index": 75,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_8_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_8_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_8_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 18,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 76,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_9_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_9_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_9_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_9_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 19,
+    "op_name": "CONV_2D",
+    "tensor_index": 77,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_9_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_9_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_9_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 20,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 78,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_10_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_10_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_10_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_10_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 21,
+    "op_name": "CONV_2D",
+    "tensor_index": 79,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_10_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_10_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_10_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 22,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 80,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_11_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_11_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_11_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_11_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 23,
+    "op_name": "CONV_2D",
+    "tensor_index": 81,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_11_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_11_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_11_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 24,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 82,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_12_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_12_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_12_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_12_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_12_1/Pad",
+    "shape": [
+      1,
+      4,
+      4,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 25,
+    "op_name": "CONV_2D",
+    "tensor_index": 83,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_12_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_12_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_12_1/convolution;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 26,
+    "op_name": "DEPTHWISE_CONV_2D",
+    "tensor_index": 84,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_13_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_13_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_13_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_13_1/depthwise;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 27,
+    "op_name": "CONV_2D",
+    "tensor_index": 85,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_13_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_13_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_13_1/convolution;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 28,
+    "op_name": "MEAN",
+    "tensor_index": 86,
+    "tensor_name": "sequential_1/global_average_pooling2d_1/Mean",
+    "shape": [
+      1,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 29,
+    "op_name": "FULLY_CONNECTED",
+    "tensor_index": 87,
+    "tensor_name": "sequential_1/dense_1/MatMul;sequential_1/dense_1/BiasAdd",
+    "shape": [
+      1,
+      43
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 30,
+    "op_name": "SOFTMAX",
+    "tensor_index": 88,
+    "tensor_name": "StatefulPartitionedCall_1:01",
+    "shape": [
+      1,
+      43
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 31,
+    "op_name": "QUANTIZE",
+    "tensor_index": 89,
+    "tensor_name": "StatefulPartitionedCall_1:0",
+    "shape": [
+      1,
+      43
+    ],
+    "dtype": "uint8"
+  },
+  {
+    "op_index": 32,
+    "op_name": "DELEGATE",
+    "tensor_index": 59,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv1_1/convolution;1",
+    "shape": [
+      1,
+      64,
+      64,
+      32
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 33,
+    "op_name": "DELEGATE",
+    "tensor_index": 60,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_1_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_1_1/depthwise;",
+    "shape": [
+      1,
+      64,
+      64,
+      32
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 34,
+    "op_name": "DELEGATE",
+    "tensor_index": 61,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_1_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_1_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_1_1/convolution;",
+    "shape": [
+      1,
+      64,
+      64,
+      64
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 35,
+    "op_name": "DELEGATE",
+    "tensor_index": 62,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_2_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_2_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_2_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_2_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_2_1/Pad",
+    "shape": [
+      1,
+      32,
+      32,
+      64
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 36,
+    "op_name": "DELEGATE",
+    "tensor_index": 63,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_2_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_2_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_2_1/convolution;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 37,
+    "op_name": "DELEGATE",
+    "tensor_index": 64,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_3_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_3_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_3_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_3_1/depthwise;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 38,
+    "op_name": "DELEGATE",
+    "tensor_index": 65,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_3_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_3_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_3_1/convolution;",
+    "shape": [
+      1,
+      32,
+      32,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 39,
+    "op_name": "DELEGATE",
+    "tensor_index": 66,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_4_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_4_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_4_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_4_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_4_1/Pad",
+    "shape": [
+      1,
+      16,
+      16,
+      128
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 40,
+    "op_name": "DELEGATE",
+    "tensor_index": 67,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_4_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_4_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_4_1/convolution;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 41,
+    "op_name": "DELEGATE",
+    "tensor_index": 68,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_5_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_5_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_5_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_5_1/depthwise;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 42,
+    "op_name": "DELEGATE",
+    "tensor_index": 69,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_5_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_5_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_5_1/convolution;",
+    "shape": [
+      1,
+      16,
+      16,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 43,
+    "op_name": "DELEGATE",
+    "tensor_index": 70,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_6_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_6_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_6_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_6_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_6_1/Pad",
+    "shape": [
+      1,
+      8,
+      8,
+      256
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 44,
+    "op_name": "DELEGATE",
+    "tensor_index": 71,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_6_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_6_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_6_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 45,
+    "op_name": "DELEGATE",
+    "tensor_index": 72,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_7_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_7_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_7_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_7_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 46,
+    "op_name": "DELEGATE",
+    "tensor_index": 73,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_7_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_7_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_7_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 47,
+    "op_name": "DELEGATE",
+    "tensor_index": 74,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_8_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_8_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_8_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_8_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 48,
+    "op_name": "DELEGATE",
+    "tensor_index": 75,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_8_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_8_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_8_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 49,
+    "op_name": "DELEGATE",
+    "tensor_index": 76,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_9_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_9_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_9_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_9_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 50,
+    "op_name": "DELEGATE",
+    "tensor_index": 77,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_9_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_9_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_9_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 51,
+    "op_name": "DELEGATE",
+    "tensor_index": 78,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_10_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_10_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_10_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_10_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 52,
+    "op_name": "DELEGATE",
+    "tensor_index": 79,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_10_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_10_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_10_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 53,
+    "op_name": "DELEGATE",
+    "tensor_index": 80,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_11_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_11_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_11_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_11_1/depthwise;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 54,
+    "op_name": "DELEGATE",
+    "tensor_index": 81,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_11_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_11_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_11_1/convolution;",
+    "shape": [
+      1,
+      8,
+      8,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 55,
+    "op_name": "DELEGATE",
+    "tensor_index": 82,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_12_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_12_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_12_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_12_1/depthwise;;sequential_1/mobilenet_1.00_128_1/conv_pad_12_1/Pad",
+    "shape": [
+      1,
+      4,
+      4,
+      512
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 56,
+    "op_name": "DELEGATE",
+    "tensor_index": 83,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_12_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_12_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_12_1/convolution;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 57,
+    "op_name": "DELEGATE",
+    "tensor_index": 84,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_dw_13_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_dw_13_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_dw_13_bn_1/batchnorm/mul_1;sequential_1/mobilenet_1.00_128_1/conv_dw_13_1/depthwise;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 58,
+    "op_name": "DELEGATE",
+    "tensor_index": 85,
+    "tensor_name": "sequential_1/mobilenet_1.00_128_1/conv_pw_13_relu_1/Relu6;sequential_1/mobilenet_1.00_128_1/conv_pw_13_bn_1/batchnorm/add_1;sequential_1/mobilenet_1.00_128_1/conv_pw_13_1/convolution;",
+    "shape": [
+      1,
+      4,
+      4,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 59,
+    "op_name": "DELEGATE",
+    "tensor_index": 86,
+    "tensor_name": "sequential_1/global_average_pooling2d_1/Mean",
+    "shape": [
+      1,
+      1024
+    ],
+    "dtype": "int8"
+  },
+  {
+    "op_index": 60,
+    "op_name": "DELEGATE",
+    "tensor_index": 87,
+    "tensor_name": "sequential_1/dense_1/MatMul;sequential_1/dense_1/BiasAdd",
+    "shape": [
+      1,
+      43
+    ],
+    "dtype": "int8"
+  }
+]

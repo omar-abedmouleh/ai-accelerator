@@ -1,0 +1,79 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 21:05:10 2024
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+  Startpoint: R_170 (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: gen_regfile_ff.register_file_i/g_rf_flops[17].rf_reg_q_reg[26]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_170/CLK (DFFHQx4_ASAP7_75t_SL)                        0.00       0.00 r
+  R_170/Q (DFFHQx4_ASAP7_75t_SL)                         53.62      53.62 f
+  U1665/Y (INVx3_ASAP7_75t_SL)                            9.06 *    62.68 r
+  U2642/Y (NOR2x1_ASAP7_75t_SL)                           9.66 *    72.34 f
+  U1670/Y (NAND2x1p5_ASAP7_75t_SL)                       14.89 *    87.23 r
+  U2180/Y (BUFx12f_ASAP7_75t_SL)                         22.53 *   109.76 r
+  U1595/Y (OAI22xp5_ASAP7_75t_R)                         23.44 *   133.20 f
+  U2567/Y (NOR4xp25_ASAP7_75t_SL)                        28.95 *   162.16 r
+  U1710/Y (NAND4xp75_ASAP7_75t_SL)                       14.25 *   176.41 f
+  U1565/Y (BUFx6f_ASAP7_75t_SL)                          20.00 *   196.41 f
+  u_ibex_core/rf_rdata_b_ecc_i[28] (ibex_core_0_00000000_00000004_0_00000000_00000028_0_2_0_0_0_0_0_00000020_00000016_00000040_0_0_00000001_0_ac533bf4_0_0_0_00000020_0_00000020_1a110000_00000fff_1a110800_1a110808_559255)
+                                                          0.00     196.41 f
+  u_ibex_core/U8221/Y (AOI22x1_ASAP7_75t_SL)             15.96 *   212.37 r
+  u_ibex_core/U8118/Y (INVx5_ASAP7_75t_SL)               16.92 *   229.30 f
+  u_ibex_core/U1228/Y (XNOR2xp5_ASAP7_75t_R)             37.15 *   266.44 f
+  u_ibex_core/U1891/Y (OAI21x1_ASAP7_75t_SL)             17.26 *   283.71 r
+  u_ibex_core/U1232/Y (XOR2x2_ASAP7_75t_SL)              21.78 *   305.49 f
+  u_ibex_core/U2749/Y (XNOR2x1_ASAP7_75t_SL)             18.56 *   324.05 f
+  u_ibex_core/U1258/Y (XOR2x1_ASAP7_75t_SL)              20.28 *   344.33 f
+  u_ibex_core/U2752/Y (XNOR2x1_ASAP7_75t_SL)             19.19 *   363.52 f
+  u_ibex_core/U6201/Y (AO21x2_ASAP7_75t_SL)              20.29 *   383.81 f
+  u_ibex_core/U5793/Y (XNOR2x1_ASAP7_75t_SL)             15.22 *   399.03 f
+  u_ibex_core/U5790/Y (XNOR2x1_ASAP7_75t_SL)             20.06 *   419.09 f
+  u_ibex_core/U2124/Y (NAND2x1p5_ASAP7_75t_SL)           12.05 *   431.15 r
+  u_ibex_core/U7944/Y (OA21x2_ASAP7_75t_SL)              19.49 *   450.64 r
+  u_ibex_core/U6304/Y (OA21x2_ASAP7_75t_SL)              18.06 *   468.70 r
+  u_ibex_core/U2830/Y (INVx1_ASAP7_75t_SL)                8.75 *   477.45 f
+  u_ibex_core/U3686/Y (AOI21x1_ASAP7_75t_SL)             11.63 *   489.08 r
+  u_ibex_core/U3685/Y (XNOR2x1_ASAP7_75t_SL)             17.14 *   506.23 r
+  u_ibex_core/U2893/Y (AO21x2_ASAP7_75t_SL)              21.98 *   528.20 r
+  u_ibex_core/U8144/Y (BUFx12f_ASAP7_75t_SL)             21.57 *   549.78 r
+  u_ibex_core/rf_wdata_wb_ecc_o[26] (ibex_core_0_00000000_00000004_0_00000000_00000028_0_2_0_0_0_0_0_00000020_00000016_00000040_0_0_00000001_0_ac533bf4_0_0_0_00000020_0_00000020_1a110000_00000fff_1a110800_1a110808_559255)
+                                                          0.00     549.78 r
+  gen_regfile_ff.register_file_i/g_rf_flops[17].rf_reg_q_reg[26]/D (DFFASRHQNx1_ASAP7_75t_R)
+                                                          0.56 *   550.33 r
+  data arrival time                                                550.33
+
+  clock clock (rise edge)                               400.00     400.00
+  clock network delay (ideal)                             0.00     400.00
+  gen_regfile_ff.register_file_i/g_rf_flops[17].rf_reg_q_reg[26]/CLK (DFFASRHQNx1_ASAP7_75t_R)
+                                                          0.00     400.00 r
+  library setup time                                    -27.65     372.35
+  data required time                                               372.35
+  --------------------------------------------------------------------------
+  data required time                                               372.35
+  data arrival time                                               -550.33
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -177.99
+
+
+1

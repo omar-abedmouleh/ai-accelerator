@@ -1,0 +1,1236 @@
+ 
+****************************************
+Report : port
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Sat Dec 20 17:15:40 2025
+****************************************
+
+
+
+Attributes:
+    i - ideal_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+boot_addr_i[0] in      0.0000   0.0000   --      --      --         
+boot_addr_i[1] in      0.0000   0.0000   --      --      --         
+boot_addr_i[2] in      0.0000   0.0000   --      --      --         
+boot_addr_i[3] in      0.0000   0.0000   --      --      --         
+boot_addr_i[4] in      0.0000   0.0000   --      --      --         
+boot_addr_i[5] in      0.0000   0.0000   --      --      --         
+boot_addr_i[6] in      0.0000   0.0000   --      --      --         
+boot_addr_i[7] in      0.0000   0.0000   --      --      --         
+boot_addr_i[8] in      0.0000   0.0000   --      --      --         
+boot_addr_i[9] in      0.0000   0.0000   --      --      --         
+boot_addr_i[10]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[11]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[12]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[13]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[14]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[15]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[16]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[17]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[18]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[19]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[20]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[21]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[22]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[23]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[24]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[25]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[26]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[27]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[28]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[29]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[30]
+               in      0.0000   0.0000   --      --      --         
+boot_addr_i[31]
+               in      0.0000   0.0000   --      --      --         
+clk_i          in      0.0000   0.0000   --      --      --         
+data_err_i     in      0.0000   0.0000   --      --      --         
+data_gnt_i     in      0.0000   0.0000   --      --      --         
+data_rdata_i[0]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[1]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[2]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[3]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[4]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[5]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[6]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[7]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[8]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[9]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[10]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[11]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[12]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[13]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[14]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[15]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[16]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[17]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[18]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[19]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[20]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[21]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[22]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[23]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[24]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[25]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[26]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[27]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[28]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[29]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[30]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_i[31]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[0]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[1]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[2]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[3]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[4]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[5]
+               in      0.0000   0.0000   --      --      --         
+data_rdata_intg_i[6]
+               in      0.0000   0.0000   --      --      --         
+data_rvalid_i  in      0.0000   0.0000   --      --      --         
+debug_req_i    in      0.0000   0.0000   --      --      --         
+fetch_enable_i[0]
+               in      0.0000   0.0000   --      --      --         
+fetch_enable_i[1]
+               in      0.0000   0.0000   --      --      --         
+fetch_enable_i[2]
+               in      0.0000   0.0000   --      --      --         
+fetch_enable_i[3]
+               in      0.0000   0.0000   --      --      --         
+hart_id_i[0]   in      0.0000   0.0000   --      --      --         
+hart_id_i[1]   in      0.0000   0.0000   --      --      --         
+hart_id_i[2]   in      0.0000   0.0000   --      --      --         
+hart_id_i[3]   in      0.0000   0.0000   --      --      --         
+hart_id_i[4]   in      0.0000   0.0000   --      --      --         
+hart_id_i[5]   in      0.0000   0.0000   --      --      --         
+hart_id_i[6]   in      0.0000   0.0000   --      --      --         
+hart_id_i[7]   in      0.0000   0.0000   --      --      --         
+hart_id_i[8]   in      0.0000   0.0000   --      --      --         
+hart_id_i[9]   in      0.0000   0.0000   --      --      --         
+hart_id_i[10]  in      0.0000   0.0000   --      --      --         
+hart_id_i[11]  in      0.0000   0.0000   --      --      --         
+hart_id_i[12]  in      0.0000   0.0000   --      --      --         
+hart_id_i[13]  in      0.0000   0.0000   --      --      --         
+hart_id_i[14]  in      0.0000   0.0000   --      --      --         
+hart_id_i[15]  in      0.0000   0.0000   --      --      --         
+hart_id_i[16]  in      0.0000   0.0000   --      --      --         
+hart_id_i[17]  in      0.0000   0.0000   --      --      --         
+hart_id_i[18]  in      0.0000   0.0000   --      --      --         
+hart_id_i[19]  in      0.0000   0.0000   --      --      --         
+hart_id_i[20]  in      0.0000   0.0000   --      --      --         
+hart_id_i[21]  in      0.0000   0.0000   --      --      --         
+hart_id_i[22]  in      0.0000   0.0000   --      --      --         
+hart_id_i[23]  in      0.0000   0.0000   --      --      --         
+hart_id_i[24]  in      0.0000   0.0000   --      --      --         
+hart_id_i[25]  in      0.0000   0.0000   --      --      --         
+hart_id_i[26]  in      0.0000   0.0000   --      --      --         
+hart_id_i[27]  in      0.0000   0.0000   --      --      --         
+hart_id_i[28]  in      0.0000   0.0000   --      --      --         
+hart_id_i[29]  in      0.0000   0.0000   --      --      --         
+hart_id_i[30]  in      0.0000   0.0000   --      --      --         
+hart_id_i[31]  in      0.0000   0.0000   --      --      --         
+instr_err_i    in      0.0000   0.0000   --      --      --         
+instr_gnt_i    in      0.0000   0.0000   --      --      --         
+instr_rdata_i[0]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[1]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[2]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[3]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[4]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[5]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[6]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[7]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[8]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[9]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[10]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[11]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[12]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[13]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[14]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[15]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[16]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[17]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[18]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[19]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[20]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[21]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[22]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[23]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[24]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[25]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[26]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[27]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[28]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[29]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[30]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_i[31]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[0]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[1]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[2]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[3]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[4]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[5]
+               in      0.0000   0.0000   --      --      --         
+instr_rdata_intg_i[6]
+               in      0.0000   0.0000   --      --      --         
+instr_rvalid_i in      0.0000   0.0000   --      --      --         
+irq_external_i in      0.0000   0.0000   --      --      --         
+irq_fast_i[0]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[1]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[2]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[3]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[4]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[5]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[6]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[7]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[8]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[9]  in      0.0000   0.0000   --      --      --         
+irq_fast_i[10] in      0.0000   0.0000   --      --      --         
+irq_fast_i[11] in      0.0000   0.0000   --      --      --         
+irq_fast_i[12] in      0.0000   0.0000   --      --      --         
+irq_fast_i[13] in      0.0000   0.0000   --      --      --         
+irq_fast_i[14] in      0.0000   0.0000   --      --      --         
+irq_nm_i       in      0.0000   0.0000   --      --      --         
+irq_software_i in      0.0000   0.0000   --      --      --         
+irq_timer_i    in      0.0000   0.0000   --      --      --         
+ram_cfg_i[ram_cfg][cfg][0]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[ram_cfg][cfg][1]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[ram_cfg][cfg][2]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[ram_cfg][cfg][3]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[ram_cfg][cfg_en]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[rf_cfg][cfg][0]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[rf_cfg][cfg][1]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[rf_cfg][cfg][2]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[rf_cfg][cfg][3]
+               in      0.0000   0.0000   --      --      --         
+ram_cfg_i[rf_cfg][cfg_en]
+               in      0.0000   0.0000   --      --      --         
+rst_ni         in      0.0000   0.0000   --      --      --         i
+scan_rst_ni    in      0.0000   0.0000   --      --      --         
+scramble_key_i[0]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[1]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[2]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[3]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[4]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[5]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[6]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[7]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[8]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[9]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[10]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[11]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[12]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[13]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[14]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[15]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[16]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[17]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[18]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[19]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[20]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[21]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[22]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[23]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[24]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[25]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[26]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[27]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[28]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[29]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[30]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[31]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[32]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[33]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[34]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[35]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[36]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[37]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[38]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[39]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[40]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[41]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[42]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[43]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[44]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[45]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[46]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[47]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[48]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[49]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[50]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[51]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[52]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[53]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[54]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[55]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[56]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[57]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[58]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[59]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[60]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[61]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[62]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[63]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[64]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[65]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[66]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[67]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[68]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[69]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[70]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[71]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[72]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[73]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[74]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[75]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[76]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[77]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[78]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[79]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[80]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[81]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[82]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[83]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[84]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[85]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[86]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[87]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[88]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[89]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[90]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[91]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[92]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[93]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[94]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[95]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[96]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[97]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[98]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[99]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[100]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[101]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[102]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[103]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[104]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[105]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[106]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[107]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[108]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[109]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[110]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[111]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[112]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[113]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[114]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[115]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[116]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[117]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[118]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[119]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[120]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[121]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[122]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[123]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[124]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[125]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[126]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_i[127]
+               in      0.0000   0.0000   --      --      --         
+scramble_key_valid_i
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[0]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[1]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[2]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[3]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[4]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[5]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[6]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[7]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[8]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[9]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[10]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[11]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[12]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[13]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[14]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[15]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[16]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[17]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[18]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[19]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[20]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[21]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[22]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[23]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[24]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[25]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[26]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[27]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[28]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[29]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[30]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[31]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[32]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[33]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[34]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[35]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[36]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[37]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[38]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[39]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[40]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[41]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[42]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[43]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[44]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[45]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[46]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[47]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[48]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[49]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[50]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[51]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[52]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[53]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[54]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[55]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[56]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[57]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[58]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[59]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[60]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[61]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[62]
+               in      0.0000   0.0000   --      --      --         
+scramble_nonce_i[63]
+               in      0.0000   0.0000   --      --      --         
+test_en_i      in      0.0000   0.0000   --      --      --         
+alert_major_bus_o
+               out     0.0000   0.0000   --      --      --         
+alert_major_internal_o
+               out     0.0000   0.0000   --      --      --         
+alert_minor_o  out     0.0000   0.0000   --      --      --         
+core_sleep_o   out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][0]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][1]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][2]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][3]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][4]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][5]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][6]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][7]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][8]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][9]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][10]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][11]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][12]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][13]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][14]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][15]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][16]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][17]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][18]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][19]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][20]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][21]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][22]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][23]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][24]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][25]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][26]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][27]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][28]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][29]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][30]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[current_pc][31]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][0]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][1]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][2]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][3]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][4]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][5]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][6]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][7]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][8]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][9]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][10]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][11]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][12]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][13]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][14]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][15]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][16]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][17]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][18]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][19]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][20]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][21]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][22]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][23]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][24]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][25]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][26]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][27]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][28]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][29]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][30]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_addr][31]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][0]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][1]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][2]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][3]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][4]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][5]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][6]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][7]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][8]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][9]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][10]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][11]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][12]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][13]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][14]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][15]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][16]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][17]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][18]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][19]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][20]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][21]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][22]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][23]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][24]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][25]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][26]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][27]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][28]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][29]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][30]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[exception_pc][31]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][0]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][1]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][2]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][3]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][4]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][5]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][6]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][7]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][8]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][9]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][10]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][11]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][12]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][13]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][14]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][15]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][16]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][17]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][18]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][19]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][20]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][21]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][22]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][23]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][24]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][25]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][26]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][27]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][28]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][29]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][30]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[last_data_addr][31]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][0]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][1]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][2]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][3]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][4]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][5]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][6]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][7]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][8]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][9]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][10]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][11]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][12]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][13]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][14]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][15]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][16]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][17]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][18]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][19]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][20]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][21]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][22]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][23]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][24]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][25]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][26]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][27]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][28]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][29]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][30]
+               out     0.0000   0.0000   --      --      --         
+crash_dump_o[next_pc][31]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[0] out     0.0000   0.0000   --      --      --         
+data_addr_o[1] out     0.0000   0.0000   --      --      --         
+data_addr_o[2] out     0.0000   0.0000   --      --      --         
+data_addr_o[3] out     0.0000   0.0000   --      --      --         
+data_addr_o[4] out     0.0000   0.0000   --      --      --         
+data_addr_o[5] out     0.0000   0.0000   --      --      --         
+data_addr_o[6] out     0.0000   0.0000   --      --      --         
+data_addr_o[7] out     0.0000   0.0000   --      --      --         
+data_addr_o[8] out     0.0000   0.0000   --      --      --         
+data_addr_o[9] out     0.0000   0.0000   --      --      --         
+data_addr_o[10]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[11]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[12]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[13]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[14]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[15]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[16]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[17]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[18]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[19]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[20]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[21]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[22]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[23]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[24]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[25]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[26]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[27]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[28]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[29]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[30]
+               out     0.0000   0.0000   --      --      --         
+data_addr_o[31]
+               out     0.0000   0.0000   --      --      --         
+data_be_o[0]   out     0.0000   0.0000   --      --      --         
+data_be_o[1]   out     0.0000   0.0000   --      --      --         
+data_be_o[2]   out     0.0000   0.0000   --      --      --         
+data_be_o[3]   out     0.0000   0.0000   --      --      --         
+data_req_o     out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[0]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[1]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[2]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[3]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[4]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[5]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_intg_o[6]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[0]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[1]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[2]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[3]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[4]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[5]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[6]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[7]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[8]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[9]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[10]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[11]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[12]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[13]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[14]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[15]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[16]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[17]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[18]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[19]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[20]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[21]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[22]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[23]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[24]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[25]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[26]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[27]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[28]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[29]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[30]
+               out     0.0000   0.0000   --      --      --         
+data_wdata_o[31]
+               out     0.0000   0.0000   --      --      --         
+data_we_o      out     0.0000   0.0000   --      --      --         
+double_fault_seen_o
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[0]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[1]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[2]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[3]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[4]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[5]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[6]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[7]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[8]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[9]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[10]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[11]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[12]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[13]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[14]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[15]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[16]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[17]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[18]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[19]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[20]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[21]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[22]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[23]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[24]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[25]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[26]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[27]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[28]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[29]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[30]
+               out     0.0000   0.0000   --      --      --         
+instr_addr_o[31]
+               out     0.0000   0.0000   --      --      --         
+instr_req_o    out     0.0000   0.0000   --      --      --         
+scramble_req_o out     0.0000   0.0000   --      --      --         
+
+1

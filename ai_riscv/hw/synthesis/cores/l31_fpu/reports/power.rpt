@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : codix_berkelium_ca
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 19:12:54 2024
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_SLVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_LVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_LVT_TT_ccsa
+Wire Load Model Mode: Inactive.
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+Warning: Cannot report correlated power unless power prediction mode is set. (PWR-727)
+Power Breakdown
+---------------
+
+                             Cell        Driven Net  Tot Dynamic      Cell
+                             Internal    Switching   Power (mW)       Leakage
+Cell                         Power (mW)  Power (mW)  (% Cell/Tot)     Power (pW)
+--------------------------------------------------------------------------------
+Netlist Power                   6.2476    411.9570   4.182e+02 (1%)   4.525e+08
+Estimated Clock Tree Power   N/A         N/A         N/A (N/A)        N/A
+--------------------------------------------------------------------------------
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      5.7669          410.2907        1.3623e+06          416.0569  (  99.38%)  i
+register           0.1879        6.3732e-02        9.3504e+07            0.3448  (   0.08%)
+sequential     2.2165e-03        1.5254e-04        2.0915e+04        2.3899e-03  (   0.00%)
+combinational      0.2907            1.6018        3.5758e+08            2.2500  (   0.54%)
+--------------------------------------------------------------------------------------------------
+Total              6.2478 mW       411.9563 mW     4.5247e+08 pW       418.6542 mW
+1

@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : area
+Design : ibex_top_PMPEnable0_PMPGranularity0_PMPNumRegions4_MHPMCounterNum0_MHPMCounterWidth40_RV32E0_RV32M2_RV32B0_RegFile0_BranchTargetALU0_WritebackStage0_ICache0_ICacheECC0_BranchPredictor0_DbgTriggerEn0_SecureIbex0_ICacheScramble0
+Version: W-2024.09-SP1
+Date   : Thu Dec 19 21:05:10 2024
+****************************************
+
+Library(s) Used:
+
+    asap7sc7p5t_LVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_SLVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_RVT_TT_ccsa.db)
+    asap7sc7p5t_SRAM_TT_ccsa (File: /localtemp2/asic_libs/asap7_merged_test/asap7sc7p5t_SRAM_TT_ccsa.db)
+
+Number of ports:                         1725
+Number of nets:                         12878
+Number of cells:                        12027
+Number of combinational cells:           9905
+Number of sequential cells:              2061
+Number of macros/black boxes:               0
+Number of buf/inv:                       2306
+Number of references:                     124
+
+Combinational area:                854.592121
+Buf/Inv area:                      146.193660
+Noncombinational area:             749.324512
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1603.916633
+Total area:                 undefined
+1

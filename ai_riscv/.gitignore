@@ -1,0 +1,103 @@
+logs# Python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+
+# Daten / Datasets / Artefakte
+training/Daten/
+# Explizit: exportierte EuroSAT-Bilder
+training/Daten/eurosat_images/
+logs/
+tmp/
+Model/
+tflite_models/
+*.keras
+*.h5
+*.onnx
+!rom/
+
+# TFDS default cache (falls außerhalb deines Pfads)
+tensorflow_datasets/
+
+# ModelSim/Questa Simulator Files
+*.mpf
+*.cr.mti
+modelsim.ini
+transcript
+vsim.wlf
+*.wlf
+wlft*
+
+# Work directories (ModelSim/Questa)
+work/
+**/work/
+@_opt*/
+**/@_opt*/
+
+# Xcelium simulator files
+xcelium.d/
+**/xcelium.d/
+*.history
+*.log
+results.txt
+tcl_stacktrace.txt
+
+# Other simulation artifacts
+*.qdb
+*.qpg
+*.qtl
+_info
+_vmake
+_lib*
+arithmetic_tb.cr.mti
+arithmetic_tb.cr.mti
+transcript
+arithmetic_tb.cr.mti
+IMG-20251009-WA0049.jpg
+arithmetic_tb.cr.mti
+work/@_opt/_lib.qdb
+work/_opt1__lock
+.symbolnamelist
+.symbolportinfomap
+arithmetic_tb.cr.mti
+arithmetic_tb.cr.mti
+arithmetic_tb.cr.mti
+arithmetic_tb.cr.mti
+arithmetic_tb.cr.mti
+vsim.wlf
+xrun.key
+arithmetic_tb.mpf
+arithmetic_tb.mpf
+ai_riscv\hw\synthesis
+# Python virtual environments
+.venv/
+**/.venv/
+
+# Simulation waveforms / huge simulator outputs
+*.vcd
+*.wlf
+*.fst
+*.ghw
+
+# Logs / temporary files
+logs/
+**/logs/
+tmp/
+**/tmp/
+*.log
+transcript
+
+# TensorFlow / ML artifacts
+tensorflow_datasets/
+*.keras
+*.h5
+*.onnx
+tflite_models/
+Model/
+
+# Synthesis technology libraries / generated huge files
+ai_riscv/hw/synthesis/lib/
+*.db
+*.ndm/

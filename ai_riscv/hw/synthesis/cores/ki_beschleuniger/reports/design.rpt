@@ -1,0 +1,96 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'top_module_1' contains 13 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : design
+Design : top_module_1
+Version: W-2024.09-SP1
+Date   : Sun Mar 29 20:18:59 2026
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    asap7sc7p5t_LVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_LVT_TT_ccsa.db)
+    asap7sc7p5t_SLVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_SLVT_TT_ccsa.db)
+    asap7sc7p5t_RVT_TT_ccsa (File: /home/abedM/ai_riscv/hw/Synthesis2/lib/asap7sc7p5t_RVT_TT_ccsa.db)
+
+Local Link Library:
+
+    {lib/asap7sc7p5t_LVT_TT_ccsa.db, lib/asap7sc7p5t_RVT_TT_ccsa.db, lib/asap7sc7p5t_SLVT_TT_ccsa.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : PVT_0P7V_25C
+    Library : asap7sc7p5t_LVT_TT_ccsa
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   0.70
+
+Wire Loading Model:
+
+    No wire loading used.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    Object         Name                From Pin       To Pin
+    ----------------------------------------------------------
+    Cell           u_processing/u_weight_sram
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[0].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[1].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[2].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[3].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[4].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[5].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[6].u_bank
+    Cell           u_processing/u_feat_bank_a/GEN_BANKS[7].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[0].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[1].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[2].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[3].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[4].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[5].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[6].u_bank
+    Cell           u_processing/u_feat_bank_b/GEN_BANKS[7].u_bank
+    Cell           u_processing/u_bias_shift/u_bias_wide
+    Cell           u_processing/u_bias_shift/u_shift_wide
+    Cell           u_processing/u_bias_shift/u_mult_wide
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[0].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[1].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[2].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[3].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[4].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[5].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[6].u_winram
+    Cell           u_processing/u_fetcher/GEN_WINRAM_CH[7].u_winram
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1
